@@ -1,28 +1,26 @@
-.App {
+.App{
+  display: grid;
   text-align: center;
+  background-color: lightgray;
+  grid-template-areas: 
+  'nav body';
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App-header{
+  grid-area: head;
+  background-color: #3f3a3a;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.App-body{
+  grid-area: body;
+  background-color: red;
 }
-
-.App-title {
-  font-size: 1.5em;
+.App-nav{
+  grid-area: nav;
+  background-color: pink;
 }
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App-footer{
+  background-color: #3f3a3a;
+  grid-area: foot;
 }
