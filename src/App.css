@@ -1,26 +1,4 @@
 .App{
-  display: grid;
-  text-align: center;
-  background-color: lightgray;
-  grid-template-areas: 
-  'nav body';
   height: 100%;
   width: 100%;
-}
-
-.App-header{
-  grid-area: head;
-  background-color: #3f3a3a;
-}
-.App-body{
-  grid-area: body;
-  background-color: red;
-}
-.App-nav{
-  grid-area: nav;
-  background-color: pink;
-}
-.App-footer{
-  background-color: #3f3a3a;
-  grid-area: foot;
 }
